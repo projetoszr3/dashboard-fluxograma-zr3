@@ -23,14 +23,15 @@ Protótipo navegável do sistema de checklists com o fluxo de execução de obra
 - O menu lateral vira uma gaveta, aberta pelo botão no canto superior esquerdo.
 - As tabelas rolam na horizontal.
 - O fluxograma fica em duas colunas.
-- No 3D, as opções ficam num painel recolhível (*Opções*). Um dedo gira o modelo, a pinça dá zoom e dois dedos movem.
+- No 3D, as opções ficam num painel recolhível (*Opções*). Um dedo gira o modelo, a pinça dá zoom e dois dedos movem. "Isolar pavimentos" aceita vários pavimentos de uma vez.
 - O desenho das plantas (Empreendimentos → Plantas) foi pensado para computador, com mouse.
 
 ## Dados
 
-- Status dos checklists lido dos painéis BRUTO e ACABAMENTOS - OBRAS - ARTUS em 13/11/2026 às 15:54.
+- Status dos checklists lido dos painéis BRUTO e ACABAMENTOS - OBRAS - ARTUS em 16/11/2026 às 17:15 (conferido com a API: nenhuma divergência).
 - São 59 checklists de apartamento (A-01 a A-59), com a impermeabilização separada em parede (A-27) e piso (A-38).
-- O arquivo traz dados reais da obra (códigos das unidades, datas e NCs). Mantenha o repositório privado.
+- Plantas do 3D importadas do Revit (ambientes_export.json). A casca do Revit (fachada e esquadrias) não vai neste repositório público; ela está só na versão interna do protótipo.
+- O arquivo traz dados reais da obra (códigos das unidades, datas e NCs), sem nomes de proprietários. Este repositório é público.
 
 ## Atualizar
 
