@@ -10,11 +10,11 @@ Protótipo navegável do sistema de checklists com o fluxo de execução de obra
 
 ## O que tem
 
-- **Dashboards → Execução da obra**, com seletor de obra, controle de data (−7 d, +7 d, Reproduzir 1x a 16x) e quatro abas:
+- **Dashboards → Execução da obra**, com seletor de obra, controle de data (−7 d, +7 d, Reproduzir; velocidades 1x a 16x na segunda linha) e quatro abas:
   - **Por apartamento:** matriz estágio × apartamento, resumo por pavimento e destaque de fora de sequência e NC.
-  - **Fluxograma:** três modos (Frente, Último concluído e Em andamento) e “Planejado até”.
+  - **Fluxograma:** linha de balanço num quadro ao lado do título e dos indicadores (abaixo deles em telas estreitas) (clicar numa linha, no cabeçalho de um estágio ou na barra de pendentes destaca o estágio nos dois; *Ver completa* abre a aba Avanço e previsão), três modos (Frente, Último concluído e Em andamento) e “Planejado até”.
   - **Avanço e previsão:** curva de avanço, ritmo por fornecedor, linha de balanço e previsão por pavimento.
-  - **Modelo 3D:** dez análises, entre elas NC pendente em escala de vermelho pela idade da NC mais antiga e % concluído em escala de verde.
+  - **Modelo 3D:** onze análises, entre elas *Número do estágio* (cada apartamento na cor do estágio da sua frente, uma cor para cada um dos 28 estágios, em escala do vermelho ao violeta; clicar num número da legenda mostra a empreiteira e os apartamentos por pavimento daquele estágio, com opção de isolar esses pavimentos), NC pendente em escala de vermelho pela idade da NC mais antiga e % concluído em escala de verde.
 - **Configurações:** fornecedores com cor, estágios do grupo OBRAS, fluxo e planejamento por obra, e cadastro de plantas para o 3D.
 - **Sobre:** as regras de cálculo e, em *Ver JSON*, a estrutura de dados sugerida.
 
