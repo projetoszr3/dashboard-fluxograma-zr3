@@ -28,7 +28,7 @@ Protótipo navegável do sistema de checklists com o fluxo de execução de obra
 
 ## Dados
 
-- Status dos checklists lido dos painéis BRUTO e ACABAMENTOS - OBRAS - ARTUS em 24/11/2026 às 08:55 (conferido com a API: nenhuma divergência).
+- Status dos checklists lido dos painéis BRUTO e ACABAMENTOS - OBRAS - ARTUS em 27/11/2026 às 15:15 (conferido com a API: nenhuma divergência).
 - São 59 checklists de apartamento (A-01 a A-59), com a impermeabilização separada em parede (A-27) e piso (A-38).
 - Plantas do 3D importadas do Revit (ambientes_export.json). A casca do Revit (fachada e esquadrias) não vai neste repositório público; ela está só na versão interna do protótipo.
 - O arquivo traz dados reais da obra (códigos das unidades, datas e NCs), sem nomes de proprietários. Este repositório é público.
